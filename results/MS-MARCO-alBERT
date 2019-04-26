@@ -1,0 +1,10 @@
+(TF_GPU) [sa1149@dsci-g1 marcoEval]$ python msmarco_eval.py ../data/collandqueries/qrels.dev.small.tsv shi_on-msmarco_predictions_dev.tsv 
+#####################
+MRR @10: 0.35199657752308144
+QueriesRanked: 6980
+#####################
+(TF_GPU) [sa1149@dsci-g1 marcoEval]$ python msmarco_eval.py ../data/collandqueries/qrels.dev.small.tsv nyu_dl-msmarco_predictions_dev.tsv 
+#####################
+MRR @10: 0.36627160367489947
+QueriesRanked: 6980
+#####################
